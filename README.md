@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/atarashi-y/Cloche)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Cloche.svg)](https://img.shields.io/cocoapods/v/Cloche.svg)
+[![Build Status](https://travis-ci.org/atarashi-y/Cloche.svg?branch=master)](https://travis-ci.org/atarashi-y/Cloche)
+[![codecov](https://codecov.io/gh/atarashi-y/Cloche/branch/master/graph/badge.svg)](https://codecov.io/gh/atarashi-y/Cloche)
 
 Cloche is a pure Swift library for sorted collections.
 
