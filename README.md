@@ -2,9 +2,9 @@
 
 [![Swift >=5.0](https://img.shields.io/badge/swift-%3E%3D5.0-blue.svg)](https://swift.org)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20Ubuntu-blue.svg)](https://github.com/atarashi-y/Cloche)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/atarashi-y/Cloche)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Cloche.svg)](https://img.shields.io/cocoapods/v/Cloche.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/atarashi-y/Cloche/blob/master/LICENSE)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Cloche.svg)](https://cocoapods.org/pods/Cloche)
 [![Build Status](https://travis-ci.com/atarashi-y/Cloche.svg?branch=master)](https://travis-ci.com/atarashi-y/Cloche)
 [![codecov](https://codecov.io/gh/atarashi-y/Cloche/branch/master/graph/badge.svg)](https://codecov.io/gh/atarashi-y/Cloche)
 
