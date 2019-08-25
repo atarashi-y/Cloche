@@ -1,10 +1,7 @@
 #include "CXXPerformanceTests.h"
 #include <chrono>
 #include <iostream>
-#include <numeric>
 #include <set>
-#include <iterator>
-#include <vector>
 
 namespace
 {
