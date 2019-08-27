@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cloche  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    <meta name="google-site-verification" content="g1QAQ8JZVMIy-Y_VUP67KdajrQ9EudJsAdMQuWS9Y5w" />
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Cloche  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          Cloche Docs
+        </a>
+         (84% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/atarashi-y/Cloche">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">Cloche Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Cloche  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DictionaryCollection.html">DictionaryCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/SetCollection.html">SetCollection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedDictionary.html">SortedDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedDictionary/Keys.html">– Keys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedDictionary/Values.html">– Values</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedDictionary/Iterator.html">– Iterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedDictionary/Index.html">– Index</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedSet.html">SortedSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedSet/Iterator.html">– Iterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SortedSet/Index.html">– Index</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Cloche21SortedDictionaryIndexa">SortedDictionaryIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Cloche24SortedDictionaryIteratora">SortedDictionaryIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Cloche14SortedSetIndexa">SortedSetIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Cloche17SortedSetIteratora">SortedSetIterator</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <h1 id='cloche' class='heading'>Cloche</h1>
+
+<p><a href="https://swift.org"><img src="https://img.shields.io/badge/swift-%3E%3D5.0-blue.svg" alt="Swift &gt;=5.0"></a>
+<a href="https://github.com/atarashi-y/Cloche"><img src="https://img.shields.io/badge/platform-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20Ubuntu-blue.svg" alt="Platform"></a>
+<a href="https://github.com/atarashi-y/Cloche/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a>
+<a href="https://cocoapods.org/pods/Cloche"><img src="https://img.shields.io/cocoapods/v/Cloche.svg" alt="CocoaPods Compatible"></a>
+<a href="https://travis-ci.com/atarashi-y/Cloche"><img src="https://travis-ci.com/atarashi-y/Cloche.svg?branch=master" alt="Build Status"></a>
+<a href="https://codecov.io/gh/atarashi-y/Cloche"><img src="https://codecov.io/gh/atarashi-y/Cloche/branch/master/graph/badge.svg" alt="codecov"></a></p>
+
+<p>Cloche is a pure Swift library for sorted collections.</p>
+<h2 id='features' class='heading'>Features</h2>
+
+<ul>
+<li>Cloche provides SortedSet and SortedDictionary, these have almost the same
+interfaces as Set and Dictionary in the Swift standard Library,
+respectively.</li>
+<li>Cloche.SortedSet and Cloche.SortedDictionary are implemented using
+RedBlack-Tree, so can perform insertion, search, deletion operations in
+logarithmic time.</li>
+</ul>
+<h2 id='performance-comparisons' class='heading'>Performance Comparisons</h2>
+<h3 id='macos' class='heading'>macOS</h3>
+
+<table><thead>
+<tr>
+<th style="text-align: center"></th>
+<th style="text-align: center">Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: center">OS</td>
+<td style="text-align: center">macOS Mojave 10.14.6</td>
+</tr>
+<tr>
+<td style="text-align: center">CPU</td>
+<td style="text-align: center">Core i5 8259U</td>
+</tr>
+<tr>
+<td style="text-align: center">Swift</td>
+<td style="text-align: center">5.0.1 (Xcode 10.3)</td>
+</tr>
+</tbody></table>
+
+<p align=center>
+    <img src="https://raw.githubusercontent.com/atarashi-y/Cloche/master/Resources/Performance-macOS-Insertion.png" width=80% alt="Insertion Performance Comparison under macOS"/>
+</p>
+
+<p align=center>
+    <img src="https://raw.githubusercontent.com/atarashi-y/Cloche/master/Resources/Performance-macOS-Search.png" width=80% alt="Search Performance Comparison under macOS"/>
+</p>
+
+<p align=center>
+    <img src="https://raw.githubusercontent.com/atarashi-y/Cloche/master/Resources/Performance-macOS-Deletion.png" width=80% alt="Deletion Performance Comparison under macOS"/>
+</p>
+<h3 id='ubuntu' class='heading'>Ubuntu</h3>
+
+<table><thead>
+<tr>
+<th style="text-align: center"></th>
+<th style="text-align: center">Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: center">OS</td>
+<td style="text-align: center">Ubuntu 18.04</td>
+</tr>
+<tr>
+<td style="text-align: center">CPU</td>
+<td style="text-align: center">Core i9 9900K</td>
+</tr>
+<tr>
+<td style="text-align: center">Swift</td>
+<td style="text-align: center">5.0.1</td>
+</tr>
+</tbody></table>
+
+<p align=center>
+    <img src="https://raw.githubusercontent.com/atarashi-y/Cloche/master/Resources/Performance-Ubuntu-Insertion.png" width=80% alt="Insertion Performance Comparison under Ubuntu"/>
+</p>
+
+<p align=center>
+    <img src="https://raw.githubusercontent.com/atarashi-y/Cloche/master/Resources/Performance-Ubuntu-Search.png" width=80% alt="Search Performance Comparison under Ubuntu"/>
+</p>
+
+<p align=center>
+    <img src="https://raw.githubusercontent.com/atarashi-y/Cloche/master/Resources/Performance-Ubuntu-Deletion.png" width=80% alt="Deletion Performance Comparison under Ubuntu"/>
+</p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS 10.0+ / macOS 10.12+ / tvOS 10.0+ / watchOS 3.0+ / Ubuntu 16.04+</li>
+<li>Xcode 10.2+</li>
+<li>Swift 5.0+</li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+
+<p>Add the following line to your <code>Podfile</code>:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'Cloche'</span>
+</code></pre>
+<h3 id='carthage' class='heading'>Carthage</h3>
+
+<p>Add the following line to your <code>Cartfile</code>:</p>
+<pre class="highlight plaintext"><code>github "atarashi-y/Cloche"
+</code></pre>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>To integrate <code>Cloche</code> into your project, specify it in your <code>Package.swift</code>
+file:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">package</span> <span class="o">=</span> <span class="kt">Package</span><span class="p">(</span>
+    <span class="nv">name</span><span class="p">:</span> <span class="s">"YourProject"</span><span class="p">,</span>
+    <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+        <span class="o">.</span><span class="nf">package</span><span class="p">(</span>
+            <span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/atarashi-y/Cloche.git"</span><span class="p">,</span>
+            <span class="nv">from</span><span class="p">:</span> <span class="s">"0.1.0"</span><span class="p">)</span>
+    <span class="p">])</span>
+</code></pre>
+<h2 id='example' class='heading'>Example</h2>
+<h3 id='sortedset' class='heading'>SortedSet</h3>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Cloche</span>
+
+<span class="k">var</span> <span class="nv">s1</span><span class="p">:</span> <span class="kt">SortedSet</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span> <span class="c1">// [2, 3, 4, 5]</span>
+
+<span class="n">s1</span><span class="o">.</span><span class="nf">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="p">[</span><span class="n">s1</span><span class="o">.</span><span class="n">startIndex</span><span class="p">])</span> <span class="c1">// 1</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span> <span class="c1">// [1, 2, 3, 4, 5]</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="o">.</span><span class="nf">remove</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">!</span><span class="p">)</span> <span class="c1">// 5</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="o">.</span><span class="n">last</span><span class="o">!</span><span class="p">)</span> <span class="c1">// 4</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span> <span class="c1">// [1, 2, 3, 4]</span>
+
+<span class="k">let</span> <span class="nv">s2</span><span class="p">:</span> <span class="kt">SortedSet</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">s1</span><span class="o">.</span><span class="nf">union</span><span class="p">(</span><span class="n">s2</span><span class="p">))</span> <span class="c1">// [1, 2, 3, 4, 7, 9]</span>
+</code></pre>
+<h3 id='sorteddictionary' class='heading'>SortedDictionary</h3>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Cloche</span>
+
+<span class="k">let</span> <span class="nv">countries</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Singapore"</span><span class="p">,</span> <span class="s">"Canada"</span><span class="p">,</span> <span class="s">"Sweden"</span><span class="p">,</span> <span class="s">"Egypt"</span><span class="p">,</span> <span class="s">"Croatia"</span><span class="p">]</span>
+<span class="k">var</span> <span class="nv">d1</span> <span class="o">=</span> <span class="kt">SortedDictionary</span><span class="p">(</span><span class="nv">grouping</span><span class="p">:</span> <span class="n">countries</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">country</span> <span class="k">in</span> <span class="kt">String</span><span class="p">(</span><span class="n">country</span><span class="o">.</span><span class="n">first</span><span class="o">!</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="s">"C"</span><span class="p">]</span><span class="o">!</span><span class="p">)</span> <span class="c1">// ["Canada", "Croatia"]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">d1</span><span class="p">)</span> <span class="c1">// ["C": ["Canada", "Croatia"], "E": ["Egypt"], "S": ["Singapore", "Sweden"]]</span>
+
+<span class="n">d1</span><span class="p">[</span><span class="s">"G"</span><span class="p">,</span> <span class="k">default</span><span class="p">:</span> <span class="p">[]]</span><span class="o">.</span><span class="nf">append</span><span class="p">(</span><span class="s">"Greece"</span><span class="p">)</span>
+<span class="n">d1</span><span class="p">[</span><span class="s">"E"</span><span class="p">,</span> <span class="k">default</span><span class="p">:</span> <span class="p">[]]</span><span class="o">.</span><span class="nf">append</span><span class="p">(</span><span class="s">"Ecuador"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">d1</span><span class="p">)</span> <span class="c1">// ["C": ["Canada", "Croatia"], "E": ["Egypt", "Ecuador"], "G": ["Greece"], "S": ["Singapore", "Sweden"]]</span>
+
+<span class="k">let</span> <span class="nv">d2</span> <span class="o">=</span> <span class="n">d1</span><span class="o">.</span><span class="n">compactMapValues</span> <span class="p">{</span>
+    <span class="n">v</span> <span class="k">in</span> <span class="n">v</span><span class="o">.</span><span class="n">count</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="p">?</span> <span class="n">v</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="nv">$0</span><span class="o">.</span><span class="nf">uppercased</span><span class="p">()</span> <span class="p">}</span> <span class="p">:</span> <span class="kc">nil</span>
+<span class="p">}</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">d2</span><span class="p">)</span> <span class="c1">// ["C": ["CANADA", "CROATIA"], "E": ["EGYPT", "ECUADOR"], "S": ["SINGAPORE", "SWEDEN"]]</span>
+</code></pre>
+<h2 id='license' class='heading'>License</h2>
+
+<p>Cloche is released under the Apache-2.0
+license.
+<a href="https://github.com/atarashi-y/Cloche/blob/master/LICENSE.txt">See LICENSE</a>
+for details.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://github.com/atarashi-y/Cloche" target="_blank" rel="external">Yoshinori Atarashi</a>. All rights reserved. (Last updated: 2019-08-27)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

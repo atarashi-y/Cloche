@@ -1,0 +1,243 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 22,
+      "symbol": "DictionaryCollection",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 23,
+      "symbol": "DictionaryCollection.Key",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 24,
+      "symbol": "DictionaryCollection.Value",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 25,
+      "symbol": "DictionaryCollection.Element",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 26,
+      "symbol": "DictionaryCollection.Keys",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 27,
+      "symbol": "DictionaryCollection.Values",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 29,
+      "symbol": "DictionaryCollection.keys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 30,
+      "symbol": "DictionaryCollection.values",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 32,
+      "symbol": "DictionaryCollection.init(uniqueKeysWithValues:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 35,
+      "symbol": "DictionaryCollection.init(_:uniquingKeysWith:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 41,
+      "symbol": "DictionaryCollection.updateValue(_:forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 43,
+      "symbol": "DictionaryCollection.merge(_:uniquingKeysWith:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 48,
+      "symbol": "DictionaryCollection.merge(_:uniquingKeysWith:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 52,
+      "symbol": "DictionaryCollection.merging(_:uniquingKeysWith:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 57,
+      "symbol": "DictionaryCollection.merging(_:uniquingKeysWith:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 62,
+      "symbol": "DictionaryCollection.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 64,
+      "symbol": "DictionaryCollection.subscript(_:default:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 69,
+      "symbol": "DictionaryCollection.filter(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 72,
+      "symbol": "DictionaryCollection.removeValue(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 75,
+      "symbol": "DictionaryCollection.remove(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 77,
+      "symbol": "DictionaryCollection.removeAll(keepingCapacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 79,
+      "symbol": "DictionaryCollection.mapValues(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/DictionaryCollection.swift",
+      "line": 83,
+      "symbol": "DictionaryCollection.compactMapValues(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SetCollection.swift",
+      "line": 22,
+      "symbol": "SetCollection",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SetCollection.swift",
+      "line": 23,
+      "symbol": "SetCollection.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SetCollection.swift",
+      "line": 25,
+      "symbol": "SetCollection.filter(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SetCollection.swift",
+      "line": 27,
+      "symbol": "SetCollection.removeFirst()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SetCollection.swift",
+      "line": 29,
+      "symbol": "SetCollection.remove(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SetCollection.swift",
+      "line": 31,
+      "symbol": "SetCollection.removeAll(keepingCapacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedDictionary.swift",
+      "line": 1068,
+      "symbol": "SortedDictionary.index(forKey:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedDictionary.swift",
+      "line": 1210,
+      "symbol": "SortedDictionaryIndex",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedDictionary.swift",
+      "line": 1212,
+      "symbol": "SortedDictionaryIterator",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedSet.swift",
+      "line": 1087,
+      "symbol": "SortedSetIndex",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedSet.swift",
+      "line": 1089,
+      "symbol": "SortedSetIterator",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/yoshinori/Documents/Projects/Cloche/Cloche"
+}
