@@ -205,35 +205,35 @@
     },
     {
       "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedDictionary.swift",
-      "line": 1068,
+      "line": 1078,
       "symbol": "SortedDictionary.index(forKey:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedDictionary.swift",
-      "line": 1210,
+      "line": 1220,
       "symbol": "SortedDictionaryIndex",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedDictionary.swift",
-      "line": 1212,
+      "line": 1222,
       "symbol": "SortedDictionaryIterator",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedSet.swift",
-      "line": 1087,
+      "line": 1097,
       "symbol": "SortedSetIndex",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/yoshinori/Documents/Projects/Cloche/Cloche/Sources/Cloche/SortedSet.swift",
-      "line": 1089,
+      "line": 1099,
       "symbol": "SortedSetIterator",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
