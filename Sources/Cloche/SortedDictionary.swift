@@ -1016,6 +1016,16 @@ extension SortedDictionary: Sequence {
     public func max() -> Element? {
         return self.last
     }
+
+    /// Returns the sorted elements of the SortedDictionary.
+    ///
+    /// - Returns: The sorted elements of the SortedDictionary.
+    /// - Complexity: O(n), where *n* is the length of this SortedDictionary.
+    @inlinable
+    @inline(__always)
+    public func sorted() -> [Element] {
+        return self.map { $0 }
+    }
 }
 
 extension SortedDictionary: Collection {

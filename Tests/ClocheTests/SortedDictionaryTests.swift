@@ -654,6 +654,14 @@ final class SortedDictionaryTests : XCTestCase {
         XCTAssertEqual(d.values[d.values.index(before: d.values.endIndex)], 4)
     }
 
+    final func testSorted() {
+        let a = [("c", 3), ("b", 2), ("a", 1), ("e", 5), ("d", 4)]
+        let d = SortedDictionary(uniqueKeysWithValues: a)
+        let expected = [("a", 1), ("b", 2), ("c", 3), ("d", 4), ("e", 5)]
+
+        assertEqual(d.sorted(), expected)
+    }
+
     final func testEquatable() {
         let d1: SortedDictionary = ["c": 3, "d": 4, "a": 1, "b": 2]
         let d2: SortedDictionary = ["d": 4, "b": 2, "a": 1, "c": 3]
@@ -803,6 +811,7 @@ final class SortedDictionaryTests : XCTestCase {
         ("testIndex", testIndex),
         ("testIndexHashable", testIndexHashable),
         ("testMinMax", testMinMax),
+        ("testSorted", testSorted),
         ("testEquatable", testEquatable),
         ("testComparable", testComparable),
         ("testHashable", testHashable),

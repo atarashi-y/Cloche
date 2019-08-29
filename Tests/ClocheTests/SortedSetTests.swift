@@ -763,6 +763,14 @@ final class SortedSetTests : XCTestCase {
         XCTAssertFalse(s3.isStrictSubset(of: s2))
     }
 
+    final func testSorted() {
+        let a = ["c", "b", "a", "e", "d"]
+        let s = SortedSet(a)
+        let expected = ["a", "b", "c", "d", "e"]
+
+        assertEqual(s.sorted(), expected)
+    }
+
     final func testDescription() {
         let empty: SortedSet<String> = []
         let s: SortedSet<String> = ["d", "b", "a", "c"]
@@ -834,6 +842,7 @@ final class SortedSetTests : XCTestCase {
         ("testIsStrictSuperset", testIsStrictSuperset),
         ("testIsSubset", testIsSubset),
         ("testIsStrictSubset", testIsStrictSubset),
+        ("testSorted", testSorted),
         ("testDescription", testDescription),
         ("testEncodeAndDecode", testEncodeAndDecode),
     ]

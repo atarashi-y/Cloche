@@ -241,6 +241,16 @@ extension SortedSet: Sequence {
     public func contains(_ element: Element) -> Bool {
         return self._tree.find(element) != nil
     }
+
+    /// Returns the sorted elements of the SortedSet.
+    ///
+    /// - Returns: The sorted elements of the SortedSet.
+    /// - Complexity: O(n), where *n* is the length of this SortedSet.
+    @inlinable
+    @inline(__always)
+    public func sorted() -> [Element] {
+        return self.map { $0 }
+    }
 }
 
 extension SortedSet: Collection {
