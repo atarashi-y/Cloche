@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = "Cloche"
-  spec.version = "0.1.0"
+  spec.version = "0.1.1"
   spec.summary = "Sorted collections written in pure Swift."
   spec.homepage = "https://github.com/atarashi-y/Cloche"
   spec.license = {

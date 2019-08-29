@@ -92,7 +92,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/atarashi-y/Cloche.git",
-            from: "0.1.0")
+            from: "0.1.1")
     ])
 ```
 
