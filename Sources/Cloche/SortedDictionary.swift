@@ -21,6 +21,10 @@ import Foundation
 
 /// A collection whose elements are key and value pairs, sorted by keys.
 ///
+/// SortedDictionary is implemented using Red-Black Tree, so can
+/// perform insertion, search, deletion operations in logarithmic
+/// time.
+///
 /// Unlike Dictionary.Values, SortedDictionary.Values doesn't conform
 /// to MutableCollection.
 ///

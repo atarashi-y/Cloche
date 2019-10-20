@@ -21,6 +21,9 @@ import Foundation
 
 /// A collection whose elements are unique and sorted.
 ///
+/// SortedSet is implemented using Red-Black Tree, so can perform
+/// insertion, search, deletion operations in logarithmic time.
+///
 /// Example
 /// =====================================
 ///

@@ -15,9 +15,9 @@ Cloche is a pure Swift library for sorted collections.
 * Cloche provides SortedSet and SortedDictionary, these have almost the same
   interfaces as Set and Dictionary in the Swift standard Library,
   respectively.
-* Cloche.SortedSet and Cloche.SortedDictionary are implemented using
-  RedBlack-Tree, so can perform insertion, search, deletion operations in
-  logarithmic time.
+* Cloche.SortedSet and Cloche.SortedDictionary are implemented using Red-Black
+  Tree, so can perform insertion, search, deletion operations in logarithmic
+  time.
 
 ## Performance Comparisons
 
