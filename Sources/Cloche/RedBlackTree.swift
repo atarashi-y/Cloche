@@ -203,10 +203,16 @@ internal final class _RedBlackTree<
     internal struct _Iterator: IteratorProtocol {
         @usableFromInline internal var _current: UnsafeMutableRawPointer?
 
+        // Guarantee the lifetime of the tree while the iterator is
+        // valid.
+        @usableFromInline internal var _tree: _RedBlackTree
+
         @inlinable
         @inline(__always)
-        internal init(_node: UnsafeMutableRawPointer?) {
+        internal init(
+            _node: UnsafeMutableRawPointer?, _in _tree: _RedBlackTree) {
             self._current = _node
+            self._tree = _tree
         }
 
         @inlinable
@@ -229,7 +235,7 @@ internal final class _RedBlackTree<
     @inlinable
     @inline(__always)
     internal final func makeIterator() -> _Iterator {
-        return _Iterator(_node: self.first)
+        return _Iterator(_node: self.first, _in: self)
     }
 
     @inlinable
